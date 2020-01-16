@@ -1,0 +1,25 @@
+// option 1
+var array = [6, 78, 'n', 0, 1];
+var newArray =[];
+for (var i =1; i < array.length; i++) {
+  newArray.push(array[i]);
+}
+console.log(newArray);
+
+
+// option 2
+var array = [5];
+var newArray =[];
+for (var i =1; i < array.length; i++) {
+  newArray.push(array[i]);
+}
+console.log(newArray);
+
+
+// option 3
+var array = [];
+var newArray =[];
+for (var i =1; i < array.length; i++) {
+  newArray.push(array[i]);
+}
+console.log(newArray);
